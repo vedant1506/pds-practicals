@@ -1,0 +1,111 @@
+# ================= Python =================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Distribution / packaging
+build/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+*.egg
+
+# Testing / coverage / linting
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ================= Node / Frontend (dashboard/) =================
+node_modules/
+dashboard/node_modules/
+dist/
+dashboard/dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Vite
+vite.config.*.timestamp*
+
+# ================= Secrets / Env =================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ================= Data (large, generated / reproducible) =================
+# >1 GB in this repo — regenerate with scripts/generate_sample_log.py + practical_*.py
+data/
+backend/data/
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+
+# ================= Logs =================
+# Big runtime logs (e.g. logs/cj.log ~200MB). Sample logs are kept.
+logs/
+*.log
+!sample_logs/*.log
+
+# Uncomment to also ignore regenerable plots (kept by default so they show on GitHub)
+# plots/
+# scripts/plots/
+
+# ================= OS / Editors =================
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ================= Misc =================
+*.tmp
+*.temp
+*.bak
+*.bak.*
+*.orig
+.cache/
